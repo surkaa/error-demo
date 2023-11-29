@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import type {HeaderMenu} from "@/modules/HeaderMenu.ts";
+import type {HeaderMenu} from "@/modules/HeaderMenu.ts"; // The problem still exists
 import {ref} from "vue";
 
 const menu = ref<HeaderMenu>({
